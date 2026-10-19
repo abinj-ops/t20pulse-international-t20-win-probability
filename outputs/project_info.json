@@ -1,0 +1,15 @@
+{
+  "project_name": "T20Pulse",
+  "description": "International T20 live win-probability prediction using historical match-state data.",
+  "dataset_matches": 3224,
+  "training_matches": 1982,
+  "validation_matches": 395,
+  "calibration_matches": 419,
+  "test_matches": 428,
+  "training_state_rows": 218328,
+  "validation_state_rows": 40796,
+  "calibration_state_rows": 45702,
+  "test_state_rows": 44089,
+  "selected_model": "XGBoost",
+  "default_probability_mode": "raw XGBoost"
+}

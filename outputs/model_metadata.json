@@ -1,0 +1,23 @@
+{
+  "project": "T20Pulse",
+  "model": "XGBoost",
+  "default_probability_mode": "raw",
+  "training_matches": 1982,
+  "validation_matches": 395,
+  "calibration_matches": 419,
+  "test_matches": 428,
+  "model_features": [
+    "target_runs",
+    "current_score",
+    "wickets_lost",
+    "legal_balls_bowled",
+    "balls_remaining",
+    "runs_needed",
+    "wickets_remaining",
+    "current_run_rate",
+    "required_run_rate",
+    "batting_team",
+    "bowling_team",
+    "venue"
+  ]
+}
