@@ -447,4 +447,3 @@ if not phase_df.empty:
         if metric in phase_df.columns
     ]
 
-    selected
